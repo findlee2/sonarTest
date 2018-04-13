@@ -78,7 +78,12 @@ public class EgovSampleController {
 	 */
 	@RequestMapping(value = "/egovSampleList.do")
 	public String selectSampleList(@ModelAttribute("searchVO") SampleDefaultVO searchVO, ModelMap model) throws Exception {
-int i = "bug";
+int i = 23423;
+int ii = 23423;
+int iii = 23423;
+int iiii = 23423;
+
+ 
 		/** EgovPropertyService.sample */
 		searchVO.setPageUnit(propertiesService.getInt("pageUnit"));
 		searchVO.setPageSize(propertiesService.getInt("pageSize"));
